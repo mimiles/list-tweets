@@ -29,4 +29,4 @@ print("---------------------------------------------------------------")
 
 for tweet in tweets:
     created_on = tweet.created_at.strftime("%d-%m-%Y")
-    print(" -- ", created_on, tweet.text)
+    print(" + ", created_on, tweet.text)
