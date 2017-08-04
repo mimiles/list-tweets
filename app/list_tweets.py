@@ -28,5 +28,5 @@ print("LIST OF @{0}'s RECENT TWEETS (FOLLOWERS: {1} / FOLLOWING: {2}):".format(u
 print("---------------------------------------------------------------")
 
 for tweet in tweets:
-    created_on = tweet.created_at.strftime("%d-%m-%Y")
+    created_on = tweet.created_at.strftime("%m/%d/%Y")
     print(" + ", created_on, tweet.text)
